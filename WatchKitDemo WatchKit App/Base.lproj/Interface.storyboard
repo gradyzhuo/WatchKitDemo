@@ -32,12 +32,6 @@
             <objects>
                 <controller title="Notes" id="tE1-db-DDV" customClass="MasterInterfaceController" customModule="WatchKitDemo_WatchKit_Extension">
                     <items>
-                        <button width="1" alignment="left" title="+" id="i7l-2T-IE0">
-                            <color key="titleColor" red="0.098039215690000001" green="0.45882352939999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <color key="backgroundColor" red="0.82352941180000006" green="0.90980392160000001" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <fontDescription key="font" type="system" pointSize="29"/>
-                        </button>
-                        <separator alignment="left" id="6YM-IE-C5f"/>
                         <table alignment="left" id="9ac-fv-Ugb">
                             <items>
                                 <tableRow identifier="NoteRowController" id="FdB-XM-jd5" customClass="NoteRowController" customModule="WatchKitDemo_WatchKit_Extension">

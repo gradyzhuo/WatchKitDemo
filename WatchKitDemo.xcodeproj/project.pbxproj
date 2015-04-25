@@ -137,6 +137,7 @@
 		79B0F3371AEA86B400DA0BD6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		79B0F3431AEA98F900DA0BD6 /* WatchKitDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WatchKitDemo.entitlements; sourceTree = "<group>"; };
 		79B0F3441AEA990900DA0BD6 /* WatchKitDemo WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "WatchKitDemo WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		79B939601AEB3C3000DB8347 /* WatchKitDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WatchKitDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		E98CE605438038D22F119153 /* Pods-WatchKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchKitDemo/Pods-WatchKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EEF517803E516E97587422E9 /* Pods-WatchKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchKitDemo/Pods-WatchKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -230,8 +231,9 @@
 				79B0F2FE1AEA84BF00DA0BD6 /* Main.storyboard */,
 				79B0F3011AEA84BF00DA0BD6 /* Images.xcassets */,
 				79B0F3031AEA84BF00DA0BD6 /* LaunchScreen.xib */,
-				79B0F2F81AEA84BF00DA0BD6 /* Supporting Files */,
 				7945C48A1AEAED73002EB3D3 /* NSUserDefaults+Group Support.swift */,
+				79B0F2F81AEA84BF00DA0BD6 /* Supporting Files */,
+				79B939601AEB3C3000DB8347 /* WatchKitDemo-Bridging-Header.h */,
 			);
 			path = WatchKitDemo;
 			sourceTree = "<group>";
@@ -719,6 +721,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WatchKitDemo/WatchKitDemo-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -738,6 +741,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WatchKitDemo/WatchKitDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
