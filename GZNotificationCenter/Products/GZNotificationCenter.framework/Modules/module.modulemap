@@ -1,0 +1,10 @@
+framework module GZNotificationCenter {
+  umbrella header "GZNotificationCenter.h"
+
+  export *
+  module * { export * }
+}
+
+module GZNotificationCenter.Swift {
+    header "GZNotificationCenter-Swift.h"
+}

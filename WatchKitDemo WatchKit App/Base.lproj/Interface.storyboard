@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tE1-db-DDV">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Detail-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="DetailPage" title="Detail" id="AgC-eL-Hgc" customClass="DetailInterfaceController" customModule="WatchKitDemo_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="34" alignment="left" text="Title" id="Icr-5E-56W">
+                            <color key="textColor" red="0.93725490199999995" green="0.78039215689999997" blue="0.1058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </label>
+                        <label width="136" alignment="left" text="Label" id="NBF-Fr-TAo"/>
+                        <label width="136" height="29" alignment="left" text="Description" id="8At-6l-MYb">
+                            <color key="textColor" red="0.93725490199999995" green="0.78039215689999997" blue="0.1058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </label>
+                        <label width="136" alignment="left" text="Label" id="GEd-wP-gW4"/>
+                    </items>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="GEd-wP-gW4" id="zt4-ac-TIS"/>
+                        <outlet property="titleLabel" destination="NBF-Fr-TAo" id="ery-lY-Kfu"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="422" y="124"/>
+        </scene>
+        <!--Notes-->
+        <scene sceneID="kdL-Dk-LkH">
+            <objects>
+                <controller title="Notes" id="tE1-db-DDV" customClass="MasterInterfaceController" customModule="WatchKitDemo_WatchKit_Extension">
+                    <items>
+                        <button width="1" alignment="left" title="+" id="i7l-2T-IE0">
+                            <color key="titleColor" red="0.098039215690000001" green="0.45882352939999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" red="0.82352941180000006" green="0.90980392160000001" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="system" pointSize="29"/>
+                        </button>
+                        <separator alignment="left" id="6YM-IE-C5f"/>
+                        <table alignment="left" id="9ac-fv-Ugb">
+                            <items>
+                                <tableRow identifier="NoteRowController" id="FdB-XM-jd5" customClass="NoteRowController" customModule="WatchKitDemo_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="79B-ni-eIR">
+                                        <items>
+                                            <label width="136" height="35" alignment="left" text="Label" id="98B-AN-NHl"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="label" destination="98B-AN-NHl" id="a4o-Yi-2sG"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="9ac-fv-Ugb" id="DLf-HF-3cd"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="235" y="124"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="BOz-TT-tkC">
+            <objects>
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController" customModule="WatchKitDemo_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group alignment="left" id="t8f-Gd-c4y"/>
+                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="235" y="672"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="235" y="1001"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="KIl-fV-djm">
+            <objects>
+                <controller id="gdX-wl-uQE" customClass="NotificationController" customModule="WatchKitDemo_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="553" y="1001"/>
+        </scene>
+    </scenes>
+</document>
