@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>37B3BD52-CEEE-401B-877A-3D072769CCDE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WatchKitDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>92B5D21F48D2D7360719665D1B9E6904607A7C05</key>
+		<string>https://github.com/gradyzhuo/WatchKitDemo.git</string>
+		<key>CEFD4787B89D1DFCFD61E97B6972E098C524260F</key>
+		<string>https://github.com/gradyzhuo/GZNotificationCenter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WatchKitDemo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>92B5D21F48D2D7360719665D1B9E6904607A7C05</key>
+		<string>..</string>
+		<key>CEFD4787B89D1DFCFD61E97B6972E098C524260F</key>
+		<string>..GZNotificationCenter</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gradyzhuo/WatchKitDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>92B5D21F48D2D7360719665D1B9E6904607A7C05</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>92B5D21F48D2D7360719665D1B9E6904607A7C05</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WatchKitDemo</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CEFD4787B89D1DFCFD61E97B6972E098C524260F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WatchKitDemoGZNotificationCenter</string>
+		</dict>
+	</array>
+</dict>
+</plist>

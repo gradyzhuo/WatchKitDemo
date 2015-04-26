@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="TSd-qR-QBM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="TSd-qR-QBM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
     </dependencies>
     <scenes>
         <!--Root View Controller-->
@@ -48,7 +48,7 @@
             </objects>
             <point key="canvasLocation" x="323" y="228"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--Detail-->
         <scene sceneID="al5-fV-s6u">
             <objects>
                 <viewController id="Qu3-H5-tFr" customClass="DetailViewController" customModule="WatchKitDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -114,8 +114,8 @@
                         </constraints>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="uKG-TZ-paP">
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="7Xm-jL-re8">
+                    <navigationItem key="navigationItem" title="Detail" id="uKG-TZ-paP">
+                        <barButtonItem key="rightBarButtonItem" title="Show To Watch" style="plain" id="7Xm-jL-re8">
                             <connections>
                                 <action selector="showInWatch:" destination="Qu3-H5-tFr" id="s6D-UU-ltH"/>
                             </connections>
